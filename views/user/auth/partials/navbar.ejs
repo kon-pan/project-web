@@ -1,0 +1,32 @@
+<nav class="navbar navbar-dark navbar-expand-lg" id="top-navigation">
+  <div class="container">
+    <a class="navbar-brand" href="#">HARτης</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarTogglerDemo01"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link <% if(path === '/') { %>active<% } %>" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link <% if(path === '/profile') { %>active<% } %>" href="/profile/<%= user.id %>">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link <% if(path === '/upload') { %>active<% } %>" href="/upload">Upload</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav">
+        <a class="nav-link" id="logout" href="#">Log out</a>
+      </ul>
+    </div>
+  </div>
+</nav>
