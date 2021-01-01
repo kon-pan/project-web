@@ -290,7 +290,7 @@ body {
 }
 
 #map {
-  width: 60vw;
+  /* width: 60vw; */
   height: 50vh;
   outline: 1px solid #ecf0f1;
   outline-offset: 2px;

@@ -17,7 +17,7 @@
     <%- include('partials/navbar.ejs')  %> 
     <div class="container mt-3">
       <div class="row justify-content-center">
-        <div class="col-auto p-3" id="map-wrapper">
+        <div class="col-12 p-3" id="map-wrapper">
           <div id="map"></div>
           <div class="row mt-4">
             <div class="col">
@@ -115,13 +115,14 @@
       integrity="sha512-FpvmtV53P/z7yzv1TAIVH7PNz94EKXs5aV6ts/Zi+B/VeGU5Xwo6KIbwpTgKc0d4urD/BtkK50IC9785y68/AA=="
       crossorigin="anonymous"
     ></script>
-    <script src="/js/user/leaflet-heatmap.js"></script>
+    <script src="/static/js/user/leaflet-heatmap.js"></script>
     <!-- My scripts -->
     <script>
       const getHeatMapData = async () => {
-        let data = await fetch(`http://${location.host}/heatmap/getData`);
+        // let data = await fetch(`http://${location.host}/heatmap/getData`);
+        let data = await fetch(`/static/heatmap-test.json`); // from test file in public folder
+        console.log(data);
         data = await data.json();
-        data = JSON.parse(data);
         console.log(data);
         let heatMapData = [];
         for (let elem of data) {
@@ -165,8 +166,8 @@
         //   valueField: 'count',
         // };
         var cfg = {
-          radius: 15,
-          maxOpacity: 0.5,
+          radius: 30,
+          maxOpacity: 0.4,
           minOpacity: 0,
           blur: 0.75,
         };

@@ -1,0 +1,3428 @@
+[
+  {
+    "server_ip_address": "2a00:1450:4001:81b::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "172.217.169.195",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "11"
+  },
+  {
+    "server_ip_address": "94.31.29.32",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2606:4700:20::681a:f8f",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "114"
+  },
+  {
+    "server_ip_address": "35.237.114.195",
+    "server_lat": "32.8608",
+    "server_lon": "-79.9746",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "193.0.160.129",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "54.239.17.112",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81a::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "54.84.103.220",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:e800:1d:8c8c:47c0:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "172.217.17.194",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:815::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "44"
+  },
+  {
+    "server_ip_address": "172.217.16.130",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "61"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81b::2008",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2a02:26f0:c000:184::1d72",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "20"
+  },
+  {
+    "server_ip_address": "54.36.109.46",
+    "server_lat": "48.8582",
+    "server_lon": "2.3387",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:800::200a",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "27"
+  },
+  {
+    "server_ip_address": "2a00:1450:4009:808::2003",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "216.58.212.134",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2606:4700::6812:29f",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "9"
+  },
+  {
+    "server_ip_address": "2600:1480:4000:e5::",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "21"
+  },
+  {
+    "server_ip_address": "51.68.39.188",
+    "server_lat": "48.8582",
+    "server_lon": "2.3387",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "54.157.137.27",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "93"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:802::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "216.58.206.195",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "151.101.17.2",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:803::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "112"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:825::2004",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "39"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81e::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "23.92.189.243",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "172.217.17.228",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "185.183.112.155",
+    "server_lat": "48.8579",
+    "server_lon": "2.3491",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "151.101.17.44",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "62"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:808::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "23"
+  },
+  {
+    "server_ip_address": "52.85.156.58",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "172.217.16.162",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "16"
+  },
+  {
+    "server_ip_address": "216.58.206.174",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a02:2638::3",
+    "server_lat": "46",
+    "server_lon": "2",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "54.163.245.232",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:808::200a",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:821::2002",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "54.154.212.169",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:8800:6:44e3:f8c0:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "35.157.248.3",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81b::2002",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a02:587:8ff:25::d4cd:4d98",
+    "server_lat": "39",
+    "server_lon": "22",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "52.219.104.236",
+    "server_lat": "39.9653",
+    "server_lon": "-83.0235",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "54.240.169.16",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "150.140.129.57",
+    "server_lat": "38.2444",
+    "server_lon": "21.7344",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2606:4700:3037::681c:1415",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:817::2008",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2606:4700::6810:9440",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:802::2008",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "52.85.155.73",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:c00:11:c4f7:a840:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "3.222.125.80",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:800::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "104.108.177.35",
+    "server_lat": "51.2283",
+    "server_lon": "6.78",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "54.171.45.51",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "150.140.141.173",
+    "server_lat": "38.2444",
+    "server_lon": "21.7344",
+    "count": "25"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:ac00:6:44e3:f8c0:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "34.74.152.26",
+    "server_lat": "32.8608",
+    "server_lon": "-79.9746",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "18.132.239.61",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "54.221.222.163",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "192.173.28.146",
+    "server_lat": "43.6319",
+    "server_lon": "-79.3716",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "34.98.67.61",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:7600:18:1fcd:34e:d2a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:821::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "62"
+  },
+  {
+    "server_ip_address": "2606:4700:10::6816:1857",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "34.249.141.175",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "18.197.99.6",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "14"
+  },
+  {
+    "server_ip_address": "104.126.36.218",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:80b::2004",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "16"
+  },
+  {
+    "server_ip_address": "52.45.36.142",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "54.36.109.186",
+    "server_lat": "48.8582",
+    "server_lon": "2.3387",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "216.58.214.138",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "151.101.18.125",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "20"
+  },
+  {
+    "server_ip_address": "54.171.98.69",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "18.156.0.31",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "34.251.161.187",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "172.217.17.161",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "23.223.75.78",
+    "server_lat": "45.4743",
+    "server_lon": "9.2007",
+    "count": "19"
+  },
+  {
+    "server_ip_address": "178.250.2.151",
+    "server_lat": "48.8582",
+    "server_lon": "2.3387",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "104.122.198.127",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:818::2016",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "52.85.156.39",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:802::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "104"
+  },
+  {
+    "server_ip_address": "216.58.214.129",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "184.26.85.63",
+    "server_lat": "13.0878",
+    "server_lon": "80.2785",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "195.201.86.134",
+    "server_lat": "51.2993",
+    "server_lon": "9.491",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2a02:2638:1::3",
+    "server_lat": "46",
+    "server_lon": "2",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "18.193.32.76",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "23.51.120.104",
+    "server_lat": "51.2283",
+    "server_lon": "6.78",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "104.107.154.192",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "20"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:ec00:18:1fcd:34e:d2a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:824::2002",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "35.186.249.177",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "13"
+  },
+  {
+    "server_ip_address": "52.85.221.71",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "13"
+  },
+  {
+    "server_ip_address": "185.86.139.115",
+    "server_lat": "48.8582",
+    "server_lon": "2.3387",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "54.240.169.36",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "3.213.100.238",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "213.19.162.51",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "58"
+  },
+  {
+    "server_ip_address": "172.217.16.194",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "36"
+  },
+  {
+    "server_ip_address": "2a00:1450:400c:c0a::9d",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:825::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "18.185.167.52",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "95.168.175.106",
+    "server_lat": "52.3824",
+    "server_lon": "4.8995",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "104.244.42.200",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "55"
+  },
+  {
+    "server_ip_address": "216.58.206.194",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "2a02:6ea0:c700::4",
+    "server_lat": "51.2993",
+    "server_lon": "9.491",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "172.217.169.168",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "2606:4700::6811:2135",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "50"
+  },
+  {
+    "server_ip_address": "2606:4700:10::ac43:274f",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "79"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:816::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "23.211.0.239",
+    "server_lat": "51.2283",
+    "server_lon": "6.78",
+    "count": "190"
+  },
+  {
+    "server_ip_address": "35.181.18.61",
+    "server_lat": "48.8607",
+    "server_lon": "2.3281",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "35.210.181.65",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "3.234.109.124",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "34.98.72.95",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:815::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "3.128.169.190",
+    "server_lat": "39.9653",
+    "server_lon": "-83.0235",
+    "count": "19"
+  },
+  {
+    "server_ip_address": "18.158.113.188",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "138.1.42.237",
+    "server_lat": "50.1049",
+    "server_lon": "8.6295",
+    "count": "23"
+  },
+  {
+    "server_ip_address": "185.199.111.154",
+    "server_lat": "34.0544",
+    "server_lon": "-118.244",
+    "count": "58"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:808::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "178.63.12.144",
+    "server_lat": "51.2993",
+    "server_lon": "9.491",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "18.203.124.74",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81d::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "66"
+  },
+  {
+    "server_ip_address": "2a02:26f0:c000:295::268b",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "151.101.16.124",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "424"
+  },
+  {
+    "server_ip_address": "212.205.126.58",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:fc00:6:738b:f940:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "30"
+  },
+  {
+    "server_ip_address": "35.156.158.150",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "35.190.38.143",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81b::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "30"
+  },
+  {
+    "server_ip_address": "199.232.81.44",
+    "server_lat": "43.2951",
+    "server_lon": "5.3861",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "52.85.222.51",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "34.120.207.148",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "70.42.32.127",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "2a02:26f0:c000:297::11a6",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2606:4700:3031::ac43:9081",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "150.140.129.14",
+    "server_lat": "38.2444",
+    "server_lon": "21.7344",
+    "count": "1408"
+  },
+  {
+    "server_ip_address": "3.126.56.137",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "3.94.232.123",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "216.58.212.10",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "17"
+  },
+  {
+    "server_ip_address": "172.217.16.134",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "104.126.36.217",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "55"
+  },
+  {
+    "server_ip_address": "85.114.159.93",
+    "server_lat": "51.2993",
+    "server_lon": "9.491",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "52.85.156.76",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2620:116:800d:21:5a23:9c4e:e774:96c1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "9"
+  },
+  {
+    "server_ip_address": "2a04:4e42:4::591",
+    "server_lat": "47",
+    "server_lon": "8",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2606:4700:20::681a:241",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:809::2004",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "18"
+  },
+  {
+    "server_ip_address": "3.121.93.75",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81d::2002",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "37"
+  },
+  {
+    "server_ip_address": "52.85.223.129",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "588"
+  },
+  {
+    "server_ip_address": "147.75.102.200",
+    "server_lat": "52.2973",
+    "server_lon": "4.7946",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:821::200a",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "54.240.169.12",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "93.184.220.66",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "14"
+  },
+  {
+    "server_ip_address": "207.241.225.95",
+    "server_lat": "37.78",
+    "server_lon": "-122.465",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "70.42.32.63",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "35.157.200.218",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "172.67.73.138",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "54.195.113.118",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "216.58.212.3",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "20"
+  },
+  {
+    "server_ip_address": "37.252.172.37",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81d::2004",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:818::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "52.85.156.124",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:817::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "52.85.156.23",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "64.202.112.31",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "23.36.250.23",
+    "server_lat": "47.6032",
+    "server_lon": "-122.3412",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "185.64.189.110",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:400c:c00::9b",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "2606:2800:134:fa2:1627:1fe:edb:1665",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "13"
+  },
+  {
+    "server_ip_address": "2a00:1450:400c:c08::9c",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "23"
+  },
+  {
+    "server_ip_address": "104.107.214.134",
+    "server_lat": "51.2283",
+    "server_lon": "6.78",
+    "count": "9"
+  },
+  {
+    "server_ip_address": "3.136.200.117",
+    "server_lat": "39.9653",
+    "server_lon": "-83.0235",
+    "count": "18"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:3c00:6:44e3:f8c0:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "104.107.243.202",
+    "server_lat": "51.2283",
+    "server_lon": "6.78",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "104.26.2.189",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "88.99.149.88",
+    "server_lat": "51.2993",
+    "server_lon": "9.491",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "18.193.136.159",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "199.232.17.16",
+    "server_lat": "48.3",
+    "server_lon": "16.35",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a00:1450:4010:c05::5e",
+    "server_lat": "61.0681",
+    "server_lon": "28.1733",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "64.233.167.157",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "104.45.152.60",
+    "server_lat": "38.7095",
+    "server_lon": "-78.1539",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2606:4700::6812:e134",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "188.165.27.173",
+    "server_lat": "48.8582",
+    "server_lon": "2.3387",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a02:26f0:c000:280::3b63",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2606:2800:233:1ab3:789:1032:20e3:21",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "24"
+  },
+  {
+    "server_ip_address": "2.19.51.163",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "290"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:815::200a",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:819::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:dc00:13:7ad6:7840:21",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2a00:1450:400c:c07::9b",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "52.85.156.25",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:809::2002",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "2620:116:800d:21:f916:5049:f87f:108e",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "199.232.80.84",
+    "server_lat": "43.2951",
+    "server_lon": "5.3861",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:803::2002",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "17"
+  },
+  {
+    "server_ip_address": "104.244.42.8",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:e000:19:11d6:d680:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "14"
+  },
+  {
+    "server_ip_address": "18.159.85.60",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "2606:4700:20::681a:832",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "3.125.70.222",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "104.26.3.73",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "140.82.121.5",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "14"
+  },
+  {
+    "server_ip_address": "159.69.67.175",
+    "server_lat": "51.2993",
+    "server_lon": "9.491",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "34.233.112.133",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "184.27.213.177",
+    "server_lat": "37.3388",
+    "server_lon": "-121.8914",
+    "count": "16"
+  },
+  {
+    "server_ip_address": "34.225.95.133",
+    "server_lat": "40.738",
+    "server_lon": "-73.9858",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "64.202.112.159",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "37.157.6.245",
+    "server_lat": "55.7123",
+    "server_lon": "12.0564",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "104.18.23.167",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "28"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81e::2002",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:825::2016",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2a00:1450:400c:c07::9c",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "52.85.156.102",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "52.205.63.19",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "35.186.245.144",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "13"
+  },
+  {
+    "server_ip_address": "35.157.165.211",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:820::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "124"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:803::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "91"
+  },
+  {
+    "server_ip_address": "52.73.227.75",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "64.202.112.95",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "2606:4700::6810:fa61",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "393"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:806::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "376"
+  },
+  {
+    "server_ip_address": "2a02:2638::1c",
+    "server_lat": "46",
+    "server_lon": "2",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "23.36.249.149",
+    "server_lat": "47.6032",
+    "server_lon": "-122.3412",
+    "count": "22"
+  },
+  {
+    "server_ip_address": "185.33.221.88",
+    "server_lat": "52.3716",
+    "server_lon": "4.8883",
+    "count": "16"
+  },
+  {
+    "server_ip_address": "54.174.23.13",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "141.226.224.32",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "9"
+  },
+  {
+    "server_ip_address": "2606:4700::6810:a723",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "104.16.68.69",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:821::2008",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "23.111.10.140",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "80.245.171.70",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "539"
+  },
+  {
+    "server_ip_address": "18.158.143.196",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2606:4700::6810:5e41",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "3.121.50.79",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "2606:4700:20::681a:2bd",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:801::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "29"
+  },
+  {
+    "server_ip_address": "216.58.212.4",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "77"
+  },
+  {
+    "server_ip_address": "185.64.189.115",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:819::200a",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "104.107.249.187",
+    "server_lat": "51.2283",
+    "server_lon": "6.78",
+    "count": "19"
+  },
+  {
+    "server_ip_address": "18.193.63.93",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "39"
+  },
+  {
+    "server_ip_address": "2a03:2880:f0ff:c:face:b00c:0:3",
+    "server_lat": "53",
+    "server_lon": "-8",
+    "count": "81"
+  },
+  {
+    "server_ip_address": "3.227.227.165",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "3.126.47.13",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "16"
+  },
+  {
+    "server_ip_address": "3.218.101.84",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "5.178.43.81",
+    "server_lat": "43.1479",
+    "server_lon": "12.1097",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:801::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "64"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:819::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "13"
+  },
+  {
+    "server_ip_address": "54.238.227.162",
+    "server_lat": "35.685",
+    "server_lon": "139.7514",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81e::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "16"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:800::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "98"
+  },
+  {
+    "server_ip_address": "172.217.169.142",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:820::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81a::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "26"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81d::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "51.89.9.252",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "207.241.224.2",
+    "server_lat": "37.78",
+    "server_lon": "-122.465",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "3.233.21.95",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "185.33.220.145",
+    "server_lat": "52.3716",
+    "server_lon": "4.8883",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "192.132.33.46",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "216.58.206.206",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "104"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:818::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:809::2008",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "9"
+  },
+  {
+    "server_ip_address": "2a00:1288:7c:800::4001",
+    "server_lat": "54",
+    "server_lon": "-2",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a03:2880:f0ff:b:face:b00c:0:8c",
+    "server_lat": "53",
+    "server_lon": "-8",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2606:4700:20::681a:341",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "31"
+  },
+  {
+    "server_ip_address": "93.174.121.39",
+    "server_lat": "37.9667",
+    "server_lon": "23.7167",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2.23.65.32",
+    "server_lat": "51.2283",
+    "server_lon": "6.78",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "35.158.49.68",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "104.83.111.99",
+    "server_lat": "45.4743",
+    "server_lon": "9.2007",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "2606:2800:234:59:254c:406:2366:268c",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "157"
+  },
+  {
+    "server_ip_address": "63.33.218.134",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "141.226.228.48",
+    "server_lat": "52.3824",
+    "server_lon": "4.8995",
+    "count": "19"
+  },
+  {
+    "server_ip_address": "37.157.5.142",
+    "server_lat": "55.7123",
+    "server_lon": "12.0564",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "54.240.169.61",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "34.95.65.255",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "104.126.36.72",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "219"
+  },
+  {
+    "server_ip_address": "2a04:4e42:4::393",
+    "server_lat": "47",
+    "server_lon": "8",
+    "count": "279"
+  },
+  {
+    "server_ip_address": "2620:116:800d:21:8c6e:cf2c:8d6:9fb5",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "172.217.22.66",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "23.211.2.27",
+    "server_lat": "51.2283",
+    "server_lon": "6.78",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "52.85.156.108",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "54.240.169.112",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "69.173.151.90",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "104.108.170.11",
+    "server_lat": "51.2283",
+    "server_lon": "6.78",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2606:2800:233:97b6:26be:138a:cba8:bb01",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "32"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:817::2016",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "66.155.71.25",
+    "server_lat": "50.8027",
+    "server_lon": "-1.0763",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "104.81.141.9",
+    "server_lat": "52.3716",
+    "server_lon": "4.8883",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:cc00:15:efbc:e300:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "2606:4700::6812:af0",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2606:2800:234:46c:e8b:1e2f:2bd:694",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "185.29.135.42",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:801::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "114"
+  },
+  {
+    "server_ip_address": "2a00:1450:400c:c08::9a",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "151.139.242.16",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "2a00:1450:400c:c08::9d",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2606:4700:10::6816:2c79",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "575"
+  },
+  {
+    "server_ip_address": "173.194.76.155",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "185.29.133.199",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2606:4700:3037::681b:a16b",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "156"
+  },
+  {
+    "server_ip_address": "207.241.226.190",
+    "server_lat": "37.78",
+    "server_lon": "-122.465",
+    "count": "85"
+  },
+  {
+    "server_ip_address": "64.202.112.127",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2620:1ec:c11::200",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81c::2002",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "95.211.195.58",
+    "server_lat": "52.3824",
+    "server_lon": "4.8995",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2a00:1450:400c:c04::9a",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "70.42.32.31",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "11"
+  },
+  {
+    "server_ip_address": "172.217.169.174",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2606:4700:3031::681b:8ffd",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a02:26f0:c000:29d::f09",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "9"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:800::2016",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "23.246.252.109",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "31"
+  },
+  {
+    "server_ip_address": "69.173.144.139",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "52.17.171.52",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "18.195.155.181",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "178.63.13.144",
+    "server_lat": "51.2993",
+    "server_lon": "9.491",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "185.33.220.241",
+    "server_lat": "52.3716",
+    "server_lon": "4.8883",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "216.58.214.130",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "17"
+  },
+  {
+    "server_ip_address": "2.19.51.62",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "17"
+  },
+  {
+    "server_ip_address": "52.58.68.181",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:3200:9:46dc:4700:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "24"
+  },
+  {
+    "server_ip_address": "52.85.156.74",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "74"
+  },
+  {
+    "server_ip_address": "134.209.16.110",
+    "server_lat": "51.5177",
+    "server_lon": "-0.6215",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "172.217.17.246",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:825::200a",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:825::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "37.252.172.38",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "52.85.156.120",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "23.60.66.17",
+    "server_lat": "33.7485",
+    "server_lon": "-84.3871",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "34.102.142.228",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:b800:11:c4f7:a840:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "77.243.60.138",
+    "server_lat": "56.9733",
+    "server_lon": "9.9233",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81f::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "94.130.145.104",
+    "server_lat": "49.4933",
+    "server_lon": "8.4742",
+    "count": "16"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:816::200a",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "52.14.222.78",
+    "server_lat": "39.9653",
+    "server_lon": "-83.0235",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "199.232.81.127",
+    "server_lat": "43.2951",
+    "server_lon": "5.3861",
+    "count": "21"
+  },
+  {
+    "server_ip_address": "2606:4700:20::681a:88a",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "52.88.59.72",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "216.58.212.35",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "54.157.207.169",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "24"
+  },
+  {
+    "server_ip_address": "2606:4700::6810:5514",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "140.82.121.4",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "19"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:825::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:824::2008",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "54.73.48.216",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "184.27.213.109",
+    "server_lat": "37.3388",
+    "server_lon": "-121.8914",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "173.223.62.234",
+    "server_lat": "37.3388",
+    "server_lon": "-121.8914",
+    "count": "37"
+  },
+  {
+    "server_ip_address": "88.214.193.99",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:818::2008",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "24"
+  },
+  {
+    "server_ip_address": "2a03:2880:f0ff:e:face:b00c:0:2",
+    "server_lat": "53",
+    "server_lon": "-8",
+    "count": "9"
+  },
+  {
+    "server_ip_address": "52.85.156.89",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "16"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:3a00:9:46dc:4700:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "88.214.194.64",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "47"
+  },
+  {
+    "server_ip_address": "151.101.130.217",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "151.101.18.49",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "104.83.122.203",
+    "server_lat": "45.4743",
+    "server_lon": "9.2007",
+    "count": "218"
+  },
+  {
+    "server_ip_address": "2a04:fa87:fffe::c000:4902",
+    "server_lat": "53",
+    "server_lon": "-8",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "3.221.56.67",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "173.223.60.163",
+    "server_lat": "37.3388",
+    "server_lon": "-121.8914",
+    "count": "22"
+  },
+  {
+    "server_ip_address": "34.246.149.44",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "172.217.169.132",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "24"
+  },
+  {
+    "server_ip_address": "52.1.197.16",
+    "server_lat": "38.6583",
+    "server_lon": "-77.2481",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "52.85.156.48",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "52.85.156.30",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "2a00:1450:400c:c0a::9b",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:824::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "65"
+  },
+  {
+    "server_ip_address": "2606:4700::6812:e653",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2606:4700::6812:39f",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "52.85.156.16",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "193.0.160.128",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "69.173.144.138",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "104.80.22.145",
+    "server_lat": "48.8607",
+    "server_lon": "2.3281",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "35.176.206.104",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2606:4700:20::681a:78b",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "22"
+  },
+  {
+    "server_ip_address": "18.194.69.213",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "178.250.0.163",
+    "server_lat": "48.8582",
+    "server_lon": "2.3387",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "52.85.155.215",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "52.174.224.26",
+    "server_lat": "52.3716",
+    "server_lon": "4.8883",
+    "count": "107"
+  },
+  {
+    "server_ip_address": "2a02:26f0:c000::213:334e",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "20"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:809::200a",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "2606:4700:20::681a:346",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2606:4700::6810:5d53",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "151.101.37.44",
+    "server_lat": "52.3716",
+    "server_lon": "4.8883",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "23.32.11.230",
+    "server_lat": "45.4743",
+    "server_lon": "9.2007",
+    "count": "14"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:824::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "147.154.155.5",
+    "server_lat": "50.1049",
+    "server_lon": "8.6295",
+    "count": "14"
+  },
+  {
+    "server_ip_address": "172.217.169.106",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "172.217.17.226",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "40"
+  },
+  {
+    "server_ip_address": "2606:4700::6810:125e",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:4000:1:a3fa:7cc0:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "52.28.175.104",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "51.89.9.251",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "172.217.18.2",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:821::2004",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "91.228.74.134",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "14"
+  },
+  {
+    "server_ip_address": "35.177.239.109",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "9"
+  },
+  {
+    "server_ip_address": "34.107.254.252",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "57"
+  },
+  {
+    "server_ip_address": "184.24.232.19",
+    "server_lat": "45.4743",
+    "server_lon": "9.2007",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "151.101.18.217",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "22"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:819::2002",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "25"
+  },
+  {
+    "server_ip_address": "2a03:2880:f1ff:83:face:b00c:0:25de",
+    "server_lat": "53",
+    "server_lon": "-8",
+    "count": "85"
+  },
+  {
+    "server_ip_address": "198.148.27.140",
+    "server_lat": "40.7033",
+    "server_lon": "-74.0039",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81c::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "81"
+  },
+  {
+    "server_ip_address": "172.217.169.206",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "28"
+  },
+  {
+    "server_ip_address": "35.240.50.85",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "151.101.17.52",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "55"
+  },
+  {
+    "server_ip_address": "151.101.2.217",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "63"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:821::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "54.239.26.220",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "27"
+  },
+  {
+    "server_ip_address": "18.221.6.219",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "151.101.17.127",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "2606:4700::6810:7baf",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "2a02:26f0:c000::213:334f",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "2606:4700:20::681a:932",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "19"
+  },
+  {
+    "server_ip_address": "52.85.156.81",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2a02:26f0:c000:280::11a6",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "2.19.51.155",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "138"
+  },
+  {
+    "server_ip_address": "2606:4700:3031::681f:462e",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "151.101.18.132",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "11"
+  },
+  {
+    "server_ip_address": "173.194.76.156",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "11"
+  },
+  {
+    "server_ip_address": "2606:4700:3036::681f:472e",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "151.101.18.137",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "58"
+  },
+  {
+    "server_ip_address": "151.101.16.133",
+    "server_lat": "51.5164",
+    "server_lon": "-0.093",
+    "count": "30"
+  },
+  {
+    "server_ip_address": "34.96.102.137",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "20"
+  },
+  {
+    "server_ip_address": "54.157.9.165",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:ac00:f:ee6c:7180:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "104.16.19.94",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "52.58.55.232",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "37.157.2.236",
+    "server_lat": "55.7123",
+    "server_lon": "12.0564",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "72.251.249.9",
+    "server_lat": "52.3716",
+    "server_lon": "4.8883",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:808::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "34"
+  },
+  {
+    "server_ip_address": "92.123.254.233",
+    "server_lat": "48.15",
+    "server_lon": "11.5833",
+    "count": "38"
+  },
+  {
+    "server_ip_address": "104.107.151.30",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "44"
+  },
+  {
+    "server_ip_address": "139.162.58.205",
+    "server_lat": "1.2929",
+    "server_lon": "103.8547",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:800::2002",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "38"
+  },
+  {
+    "server_ip_address": "104.20.5.43",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "107.20.250.0",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "212.82.100.181",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "11"
+  },
+  {
+    "server_ip_address": "136.243.140.41",
+    "server_lat": "51.2993",
+    "server_lon": "9.491",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "52.5.3.101",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "130.61.67.95",
+    "server_lat": "50.1049",
+    "server_lon": "8.6295",
+    "count": "17"
+  },
+  {
+    "server_ip_address": "92.123.88.135",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81e::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "18"
+  },
+  {
+    "server_ip_address": "104.107.148.169",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "21"
+  },
+  {
+    "server_ip_address": "2620:116:800d:21:51e4:db4b:4436:b305",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:806::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "72"
+  },
+  {
+    "server_ip_address": "52.72.59.210",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "151.101.130.166",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "401"
+  },
+  {
+    "server_ip_address": "216.58.212.130",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "178.250.2.131",
+    "server_lat": "48.8582",
+    "server_lon": "2.3387",
+    "count": "37"
+  },
+  {
+    "server_ip_address": "212.205.126.19",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "278"
+  },
+  {
+    "server_ip_address": "52.34.63.217",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "18"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:819::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "87"
+  },
+  {
+    "server_ip_address": "54.240.169.92",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "14"
+  },
+  {
+    "server_ip_address": "52.85.156.14",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "18.232.208.15",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "17"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81f::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "2a02:26f0:c000:299::11a6",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:80b::2016",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "216.58.206.200",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "52.29.85.133",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:803::2004",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "52.20.222.248",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2600:1480:3000:e5::",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "104.107.253.175",
+    "server_lat": "51.2283",
+    "server_lon": "6.78",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "3.222.217.7",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "2606:4700::6812:e234",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "104.107.146.237",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "9"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:808::2004",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:802::2004",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "60"
+  },
+  {
+    "server_ip_address": "212.205.126.24",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "59"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:809::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:808::2002",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a02:582:a00::d4cd:7e9b",
+    "server_lat": "39",
+    "server_lon": "22",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:818::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "2606:4700::6810:f34e",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "195.8.223.89",
+    "server_lat": "42.696",
+    "server_lon": "23.332",
+    "count": "1597"
+  },
+  {
+    "server_ip_address": "104.122.204.69",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "34.98.64.218",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "23"
+  },
+  {
+    "server_ip_address": "23.32.11.104",
+    "server_lat": "45.4743",
+    "server_lon": "9.2007",
+    "count": "39"
+  },
+  {
+    "server_ip_address": "34.253.109.165",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "92.123.88.15",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2.21.16.117",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2606:4700::6812:1618",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "148.251.158.115",
+    "server_lat": "51.2993",
+    "server_lon": "9.491",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "18.158.93.70",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "213.19.162.61",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "19"
+  },
+  {
+    "server_ip_address": "172.217.169.164",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "21"
+  },
+  {
+    "server_ip_address": "87.248.118.22",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "2a00:1288:7c:800::4000",
+    "server_lat": "54",
+    "server_lon": "-2",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "185.184.8.30",
+    "server_lat": "52.3716",
+    "server_lon": "4.8883",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "35.201.100.179",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "14"
+  },
+  {
+    "server_ip_address": "72.21.195.65",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:800::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "32"
+  },
+  {
+    "server_ip_address": "2606:4700:20::681a:349",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "23.36.243.153",
+    "server_lat": "47.6032",
+    "server_lon": "-122.3412",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:808::2016",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "38"
+  },
+  {
+    "server_ip_address": "52.49.193.31",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "34.107.222.173",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "22"
+  },
+  {
+    "server_ip_address": "3.120.57.190",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "104.126.36.128",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "51"
+  },
+  {
+    "server_ip_address": "52.44.11.196",
+    "server_lat": "39.0481",
+    "server_lon": "-77.4728",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:814::2004",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "22"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:9c00:15:efbc:e300:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "54.240.169.55",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "104.19.149.54",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "11"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:803::200a",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "52.85.156.95",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "10"
+  },
+  {
+    "server_ip_address": "2606:4700:20::ac43:4513",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "15"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:814::2003",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "34.120.253.250",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a02:26f0:c000:193::19fd",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "35.157.22.81",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "34.243.93.43",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "13"
+  },
+  {
+    "server_ip_address": "157.240.9.23",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "49"
+  },
+  {
+    "server_ip_address": "51.210.112.66",
+    "server_lat": "48.8582",
+    "server_lon": "2.3387",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:816::2002",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "159.253.128.188",
+    "server_lat": "52.3716",
+    "server_lon": "4.8883",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:816::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "50"
+  },
+  {
+    "server_ip_address": "213.19.162.31",
+    "server_lat": "51.4964",
+    "server_lon": "-0.1224",
+    "count": "11"
+  },
+  {
+    "server_ip_address": "2a02:26f0:c000:184::19fd",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "216.58.205.226",
+    "server_lat": "37.4043",
+    "server_lon": "-122.0748",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "40.113.136.100",
+    "server_lat": "52.3716",
+    "server_lon": "4.8883",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:814::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "75"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:803::2001",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "78"
+  },
+  {
+    "server_ip_address": "150.140.130.145",
+    "server_lat": "38.2444",
+    "server_lon": "21.7344",
+    "count": "133"
+  },
+  {
+    "server_ip_address": "104.122.195.242",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "23.223.65.20",
+    "server_lat": "45.4743",
+    "server_lon": "9.2007",
+    "count": "14"
+  },
+  {
+    "server_ip_address": "2600:9000:2045:b000:13:e62f:2040:93a1",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "215"
+  },
+  {
+    "server_ip_address": "184.30.24.107",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "52.85.156.4",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "35.156.228.165",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "6"
+  },
+  {
+    "server_ip_address": "172.217.23.98",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "69"
+  },
+  {
+    "server_ip_address": "2a02:fa8:8806:20::2010",
+    "server_lat": "62",
+    "server_lon": "15",
+    "count": "8"
+  },
+  {
+    "server_ip_address": "2606:4700::6810:5c53",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "35"
+  },
+  {
+    "server_ip_address": "99.80.110.198",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "172.217.22.98",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2606:4700:20::ac43:4686",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "16"
+  },
+  {
+    "server_ip_address": "104.107.252.35",
+    "server_lat": "51.2283",
+    "server_lon": "6.78",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "104.122.212.187",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "52"
+  },
+  {
+    "server_ip_address": "157.240.9.35",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "64"
+  },
+  {
+    "server_ip_address": "2a00:1288:110:c305::8000",
+    "server_lat": "54",
+    "server_lon": "-2",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "18.196.13.179",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "54.240.169.99",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "24"
+  },
+  {
+    "server_ip_address": "2a02:587:8ff:25::d4cd:4daa",
+    "server_lat": "39",
+    "server_lon": "22",
+    "count": "12"
+  },
+  {
+    "server_ip_address": "130.211.23.194",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "294"
+  },
+  {
+    "server_ip_address": "2606:4700::6812:1980",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "16"
+  },
+  {
+    "server_ip_address": "3.250.166.134",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "2"
+  },
+  {
+    "server_ip_address": "195.181.175.48",
+    "server_lat": "50.1033",
+    "server_lon": "8.6533",
+    "count": "13"
+  },
+  {
+    "server_ip_address": "54.240.169.37",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "4"
+  },
+  {
+    "server_ip_address": "2a00:1450:4001:81c::200e",
+    "server_lat": "50.1188",
+    "server_lon": "8.6843",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "172.217.169.162",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "3"
+  },
+  {
+    "server_ip_address": "172.217.169.99",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "18"
+  },
+  {
+    "server_ip_address": "2a00:1450:400c:c0c::9a",
+    "server_lat": "50.8336",
+    "server_lon": "4.3337",
+    "count": "5"
+  },
+  {
+    "server_ip_address": "2606:4700::6812:1f84",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "73"
+  },
+  {
+    "server_ip_address": "52.48.248.240",
+    "server_lat": "53.3331",
+    "server_lon": "-6.2489",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "2606:4700::6812:16c7",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "16"
+  },
+  {
+    "server_ip_address": "2.19.51.79",
+    "server_lat": "37.9842",
+    "server_lon": "23.7353",
+    "count": "7"
+  },
+  {
+    "server_ip_address": "52.85.156.20",
+    "server_lat": "37.751",
+    "server_lon": "-97.822",
+    "count": "1"
+  },
+  {
+    "server_ip_address": "35.227.229.34",
+    "server_lat": "39.1028",
+    "server_lon": "-94.5778",
+    "count": "2"
+  }
+]

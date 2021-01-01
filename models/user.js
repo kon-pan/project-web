@@ -96,7 +96,7 @@ class User {
       user.lastName,
       user.username,
       user.password,
-      id
+      id,
     ];
 
     const client = await db.connect();
@@ -105,6 +105,32 @@ class User {
       const result = await client.query(query, values);
       if (result.rowCount > 0) {
         return true;
+      } else {
+        return false;
+      }
+    } finally {
+      client.release();
+    }
+  }
+
+  static async getHeatmapData(id) {
+    console.log(id);
+
+    const query = `
+      SELECT server_ip_address, server_lat, server_lon, COUNT(*)
+      FROM entries
+      WHERE entries.user_id = $1
+      GROUP BY server_ip_address, server_lat, server_lon
+    `;
+
+    const values = [id];
+
+    const client = await db.connect();
+
+    try {
+      const result = await client.query(query, values);
+      if (result.rowCount > 0) {
+        return result.rows;
       } else {
         return false;
       }
