@@ -96,7 +96,7 @@ exports.getProfile = (req, res, next) => {
   });
 };
 
-exports.postEditProfileInfo = (req, res, next) => {
+exports.postEditProfileInfo = async (req, res, next) => {
   const errors = validationResult(req); // function provided by express-validator
 
   if (!errors.isEmpty()) {
@@ -131,9 +131,26 @@ exports.postEditProfileInfo = (req, res, next) => {
   } else {
     console.log(req.body);
     // Handle password
-    // If req.body.password === null, then keep req.user.password
-    // If req.body.password !== null, then encrypt req.body.password
-    res.json({ editSuccess: true });
+    // If req.body.password === '', then keep req.user.password
+    if (req.body.password === '') {
+      // User hasn't edited the password
+      req.body.password = req.user.password;
+    } else {
+      // User has provided a new password - Encrypt it
+      req.body.password = await bcrypt.hash(req.body.password, 10);
+    }
+
+    // Edit user info in database
+    const editSuccess = await User.edit(req.params.userId, req.body);
+
+    if (editSuccess) {
+      res.json({
+        editSuccess: true,
+        firstName: req.body.firstName,
+        lastName: req.body.lastName,
+        username: req.body.username,
+      });
+    }
   }
 };
 

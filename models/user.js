@@ -80,6 +80,38 @@ class User {
       client.release();
     }
   }
+
+  static async edit(id, user) {
+    console.log(id);
+    console.log(user);
+
+    const query = `
+      UPDATE users
+      SET first_name=$1, last_name=$2, username=$3, password=$4
+      WHERE id=$5;
+    `;
+
+    const values = [
+      user.firstName,
+      user.lastName,
+      user.username,
+      user.password,
+      id
+    ];
+
+    const client = await db.connect();
+
+    try {
+      const result = await client.query(query, values);
+      if (result.rowCount > 0) {
+        return true;
+      } else {
+        return false;
+      }
+    } finally {
+      client.release();
+    }
+  }
 }
 
 module.exports = User;
