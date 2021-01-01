@@ -71,6 +71,7 @@
                               <div class="form-group"> 
                                 <label for="edit-first-name">Last name</label>
                                 <input type="text" class="form-control" name="lastName" id="edit-last-name" value="<%= user.last_name %>">
+                                <small id="last-name-msg" class="form-text text-muted d-none"></small>
                               </div>
                             </div>
                           </div>
@@ -79,6 +80,7 @@
                               <div class="form-group"> 
                                 <label for="edit-first-name">Username</label>
                                 <input type="text" class="form-control" name="username" id="edit-username" value="<%= user.username %>">
+                                <small id="username-msg" class="form-text text-muted d-none"></small>
                               </div>
                             </div>
                           </div>
@@ -87,6 +89,7 @@
                               <div class="form-group"> 
                                 <label for="edit-first-name">Change password</label>
                                 <input type="password" class="form-control" name="password" id="edit-password">
+                                <small id="password-msg" class="form-text text-muted d-none"></small>
                               </div>
                             </div>
                           </div>
@@ -110,7 +113,7 @@
               </div>
             </div>
             <div class="col" id="profile-info">
-              <h3><%= user.first_name %> <%= user.last_name %></h3>
+              <h3><span id="first-name"><%= user.first_name %></span> <span id="last-name"><%= user.last_name %></span></h3>
               <ul>
                 <li>Email:</li>
                 <li>Total entries:</li>
