@@ -41,7 +41,13 @@
               <% } %>
               <% if (flashMsg['emailErr']) { %>
                 <span class="small"><%= flashMsg['emailErr'] %></span>
-                <% } %>
+              <% } %>
+              <% if (flashMsg['passwordErr']) { %>
+                <span class="small"><%= flashMsg['passwordErr'] %></span>
+              <% } %>
+              <% if (flashMsg['passwordConfirmErr']) { %>
+                <span class="small"><%= flashMsg['passwordConfirmErr'] %></span>
+              <% } %>
             </div>
           </div>
           <% } %>
