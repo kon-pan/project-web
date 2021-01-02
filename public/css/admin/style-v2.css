@@ -27,7 +27,7 @@ i.las {
 }
 
 /*
- * Main
+ * Home Main
  */
 
 .list-group-item {
@@ -44,7 +44,8 @@ i.las {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #3498db;
+  /* background-color: #3498db; */
+  background-color: #f1c40f;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
@@ -62,4 +63,29 @@ i.las {
 #req-res-diagrams .col {
   background-color: #ecf0f1;
   border-radius: 4px;
+}
+
+/*
+ * Users Main
+ */
+
+#users-table {
+  background-color: #ecf0f1;
+  border-radius: 4px;
+}
+
+#users-table .table th {
+  text-align: center;
+  
+}
+
+#users-table .table td {
+  text-align: center;
+  /* padding-bottom: 4px;
+  padding-top: 4px; */
+}
+
+.py-4px {
+  padding-bottom: 4px;
+  padding-top: 4px;
 }

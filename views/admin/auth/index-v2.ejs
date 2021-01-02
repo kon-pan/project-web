@@ -40,7 +40,7 @@
         </button> -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a href="" class="nav-link">Log out</a>
+            <a href="/admin/logout" class="nav-link">Log out</a>
           </li>
         </ul>
       </div>
@@ -67,7 +67,7 @@
             </div>
             <div class="list-group pt-4">
               <a
-                href="#"
+                href="/admin/logout"
                 class="list-group-item list-group-item-action"
                 id="list-group__logout"
               >
@@ -79,19 +79,19 @@
           <div class="col py-4">
             <div class="row" id="basic-info">
               <div class="col mx-2 py-4 text-center">
-                <h2>54</h2>
+                <h2><%= totalUsers %></h2>
                 <h4 class="text-muted">Users</h4>
               </div>
               <div class="col mx-2 py-4 text-center">
-                <h2>54</h2>
+                <h2><%= totalEntries %></h2>
                 <h4 class="text-muted">Total Entries</h4>
               </div>
               <div class="col mx-2 py-4 text-center">
-                <h2>54</h2>
+                <h2><%= uniqueDomains %></h2>
                 <h4 class="text-muted">Unique Domains</h4>
               </div>
               <div class="col mx-2 py-4 text-center">
-                <h2>54</h2>
+                <h2><%= uniqueIsps %></h2>
                 <h4 class="text-muted">Unique ISP's</h4>
               </div>
             </div>
