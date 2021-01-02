@@ -10,10 +10,10 @@ exports.isAuth = (req, res, next) => {
 };
 
 exports.isAdmin = (req, res, next) => {
-  if (req.isAuthenticated() && req.user.admin) {
+  if (req.isAuthenticated() && req.user.is_admin) {
     next();
   } else {
     req.session.returnTo = req.path;
-    res.redirect('/login');
+    res.redirect('/admin/login');
   }
 };

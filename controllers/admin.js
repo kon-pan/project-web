@@ -3,5 +3,5 @@ exports.getLogin = (req, res, next) => {
 };
 
 exports.getIndex = (req, res, next) => {
-  res.render('admin/auth/index');
+  res.render('admin/auth/index-v2');
 };
