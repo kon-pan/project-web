@@ -82,9 +82,6 @@ class User {
   }
 
   static async edit(id, user) {
-    console.log(id);
-    console.log(user);
-
     const query = `
       UPDATE users
       SET first_name=$1, last_name=$2, username=$3, password=$4
@@ -114,8 +111,6 @@ class User {
   }
 
   static async getHeatmapData(id) {
-    console.log(id);
-
     const query = `
       SELECT server_ip_address, server_lat, server_lon, COUNT(*)
       FROM entries
