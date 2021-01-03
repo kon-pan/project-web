@@ -23,6 +23,9 @@ router.get('/logout', function (req, res) {
   res.redirect('/admin/login');
 });
 
+router.get('/get-requests/group-by/method', adminController.getRequestsGroupByMethod);
+router.get('/get-responses/group-by/status', adminController.getResponsesGroupByStatus);
+
 router.get('/users', isAdmin, adminController.getUsers);
 
 router.get('/home', isAdmin , adminController.getIndex);

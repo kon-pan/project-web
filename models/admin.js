@@ -84,6 +84,69 @@ class Admin {
       client.release();
     }
   }
+
+  static async getUsers() {
+    const query = `
+      SELECT id, first_name, last_name, username, email
+      FROM users
+      ORDER BY id;
+    `;
+
+    const client = await db.connect();
+
+    try {
+      const result = await client.query(query);
+      if (result.rowCount > 0) {
+        return result.rows;
+      } else {
+        return false;
+      }
+    } finally {
+      client.release();
+    }
+  }
+
+  static async getRequestsGroupByMethod() {
+    const query = `
+      SELECT requests.method, COUNT(*) AS request_count 
+      FROM requests
+      GROUP BY requests.method;
+    `;
+
+    const client = await db.connect();
+
+    try {
+      const result = await client.query(query);
+      if (result.rowCount > 0) {
+        return result.rows;
+      } else {
+        return false;
+      }
+    } finally {
+      client.release();
+    }
+  }
+
+  static async getResponsesGroupByStatus() {
+    const query = `
+      SELECT responses.status, COUNT(*) AS status_count 
+      FROM responses
+      GROUP BY responses.status;
+    `;
+
+    const client = await db.connect();
+
+    try {
+      const result = await client.query(query);
+      if (result.rowCount > 0) {
+        return result.rows;
+      } else {
+        return false;
+      }
+    } finally {
+      client.release();
+    }
+  }
 }
 
 module.exports = Admin;

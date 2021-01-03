@@ -21,60 +21,13 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-light"
-      id="top-navigation"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#">HARτες | Admin</a>
-        <!-- <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a href="/admin/logout" class="nav-link">Log out</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <%- include('partials/navbar.ejs') %>
     <main>
       <div class="container">
         <!-- Row that wraps the whole main page -->
         <div class="row">
           <!-- Side nav column -->
-          <div class="col-3 py-4">
-            <div class="list-group">
-              <a href="#" class="list-group-item list-group-item-action active">
-                Home
-              </a>
-              <a href="#" class="list-group-item list-group-item-action"
-                >Users</a
-              >
-              <a href="#" class="list-group-item list-group-item-action"
-                >Morbi leo risus</a
-              >
-              <a href="#" class="list-group-item list-group-item-action"
-                >Porta ac consectetur ac</a
-              >
-            </div>
-            <div class="list-group pt-4">
-              <a
-                href="/admin/logout"
-                class="list-group-item list-group-item-action"
-                id="list-group__logout"
-              >
-                Log out
-              </a>
-            </div>
-          </div>
+          <div class="col-3 py-4"><%- include('partials/side-nav.ejs') %></div>
           <!-- Main content column -->
           <div class="col py-4">
             <div class="row" id="basic-info">
@@ -95,9 +48,12 @@
                 <h4 class="text-muted">Unique ISP's</h4>
               </div>
             </div>
-            <div class="row" id="req-res-diagrams">
-              <div class="col">
-                
+            <div class="row mt-4" id="req-res-diagrams">
+              <div class="col-5 mx-2 bg-clouds br-4px">
+                <canvas id="requests-method-chart" height="200"></canvas>
+              </div>
+              <div class="col mx-2 bg-clouds br-4px">
+                <canvas id="responses-status-chart"></canvas>
               </div>
             </div>
           </div>
@@ -111,5 +67,13 @@
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
       crossorigin="anonymous"
     ></script>
+    <!-- Chart.js -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"
+      integrity="sha512-d9xgZrVZpmmQlfonhQUvTR7lMPtO7NkZMkA0ABN3PHCbKA5nqylQ/yWlFAyY6hYgdF1Qh6nYiuADWwKB4C2WSw=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/static/js/admin/charts/requests-method.js"></script>
+    <script src="/static/js/admin/charts/responses-status.js"></script>
   </body>
 </html>

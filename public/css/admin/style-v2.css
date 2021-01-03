@@ -2,6 +2,14 @@ body {
   background-color: #2c3e50;
 }
 
+.bg-clouds {
+  background-color: #ecf0f1;
+}
+
+.br-4px {
+  border-radius: 4px;
+}
+
 i.las {
   font-size: 16px;
 }
@@ -54,16 +62,17 @@ i.las {
   color: #e74c3c;
 }
 
-#basic-info .col {
+#basic-info .col,
+#basic-info .col-5 {
   background-color: #ecf0f1;
   border-radius: 4px;
   border: 2px solid rgba(0, 0, 0, 0.125);
 }
 
-#req-res-diagrams .col {
+/* #req-res-diagrams .col {
   background-color: #ecf0f1;
   border-radius: 4px;
-}
+} */
 
 /*
  * Users Main

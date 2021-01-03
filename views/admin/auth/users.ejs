@@ -17,63 +17,18 @@
       crossorigin="anonymous"
     />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../../../public/css/admin/style-v2.css" />
+    <link rel="stylesheet" href="/static/css/admin/style-v2.css" />
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav
-      class="navbar navbar-expand-lg navbar-light bg-light"
-      id="top-navigation"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="#">HARτες | Admin</a>
-        <!-- <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a href="" class="nav-link">Log out</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <%- include('partials/navbar.ejs') %> 
     <main>
       <div class="container">
         <!-- Row that wraps the whole main page -->
         <div class="row">
           <!-- Side nav column -->
           <div class="col-3 py-4">
-            <div class="list-group">
-              <a href="#" class="list-group-item list-group-item-action active">
-                Home
-              </a>
-              <a href="#" class="list-group-item list-group-item-action"
-                >Users</a
-              >
-              <a href="#" class="list-group-item list-group-item-action"
-                >Morbi leo risus</a
-              >
-              <a href="#" class="list-group-item list-group-item-action"
-                >Porta ac consectetur ac</a
-              >
-            </div>
-            <div class="list-group pt-4">
-              <a
-                href="#"
-                class="list-group-item list-group-item-action"
-                id="list-group__logout"
-              >
-                Log out
-              </a>
-            </div>
+            <%- include('partials/side-nav.ejs') %> 
           </div>
           <!-- Main content column -->
           <div class="col py-4">
@@ -82,7 +37,7 @@
                 <table class="table table-hover">
                   <thead>
                     <tr>
-                      <th scope="col">#</th>
+                      <th scope="col">ID</th>
                       <th scope="col">First name</th>
                       <th scope="col">Last name</th>
                       <th scope="col">Username</th>
@@ -91,51 +46,23 @@
                     </tr>
                   </thead>
                   <tbody>
+                    <% for( const user of users ) { %>
                     <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                      <td>Otto</td>
+                      <th scope="row"><%= user.id %></th>
+                      <td><%= user.first_name %></td>
+                      <td><%= user.last_name %></td>
+                      <td><%= user.email %></td>
+                      <td><%= user.username %></td>
                       <td class="py-1">
-                        <button type="link" class="btn btn-sm btn-info">
+                        <button type="link" class="btn btn-sm btn-info" disabled>
                           Details
                         </button>
-                        <button type="link" class="btn btn-sm btn-danger">
+                        <button type="link" class="btn btn-sm btn-danger" disabled>
                           Remove
                         </button>
                       </td>
                     </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                      <td>Otto</td>
-                      <td class="py-1">
-                        <button type="link" class="btn btn-sm btn-info">
-                          Details
-                        </button>
-                        <button type="link" class="btn btn-sm btn-danger">
-                          Remove
-                        </button>
-                      </td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Larry</td>
-                      <td>Bird</td>
-                      <td>@twitter</td>
-                      <td>Otto</td>
-                      <td class="py-1">
-                        <button type="link" class="btn btn-sm btn-info">
-                          Details
-                        </button>
-                        <button type="link" class="btn btn-sm btn-danger">
-                          Remove
-                        </button>
-                      </td>
-                    </tr>
+                    <% } %>
                   </tbody>
                 </table>
               </div>
