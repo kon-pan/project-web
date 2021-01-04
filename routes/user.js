@@ -51,6 +51,7 @@ router.get('/profile/:userId', isAuth, userController.getProfile);
 
 router.get('/upload', isAuth, userController.getUpload);
 router.post('/upload/upload-data', userController.postUploadData);
+router.post('/upload/download-data', userController.postDownloadData);
 
 router.get('/', userController.getIndex);
 

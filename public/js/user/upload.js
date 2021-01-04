@@ -77,7 +77,7 @@ const processFile = (file) => {
     document.querySelector('#upload-actions').classList.remove('d-none');
 
     let fileContent = e.target.result;
-    let har = JSON.parse(fileContent);
+    let har = JSON.parse(fileContent); // original har file
     let entries = har.log.entries;
 
     const fileSubmitMsg = document.querySelector('#file-submit-msg');
@@ -89,6 +89,7 @@ const processFile = (file) => {
     }
 
     // Upload button event handler
+    // TODO: Refactor with async-await
     document.querySelector('#upload-btn').addEventListener('click', (e) => {
       e.preventDefault();
       const spinner = document.querySelector('#spinner');
@@ -129,7 +130,51 @@ const processFile = (file) => {
         });
     });
 
-    // Download event handler
+    // Download button event handler
+    // TODO: Refactor with async-await
+    document.querySelector('#download-btn').addEventListener('click', (e) => {
+      e.preventDefault();
+
+      const spinner = document.querySelector('#spinner');
+      document.querySelector('#upload-actions').classList.add('d-none');
+      fileSubmitMsg.style.display = 'none';
+      spinner.classList.remove('d-none');
+      // Delete sensitive fields
+      let entries = har.log.entries; // entries of oringinal har file
+      for (let entry of entries) {
+        // Here we want to remove certain fields
+        // from the original har file
+        if (entry.request.cookies) {
+          entry.request.cookies = []; // delete request cookies
+        }
+        if (entry.request.queryString) {
+          entry.request.queryString = []; // delete query string values
+        }
+        if (entry.request.postData) {
+          entry.request.postData = {}; // delete POST request data
+        }
+        if (entry.response.cookies) {
+          entry.response.cookies = []; // delete response cookies
+        }
+      }
+
+      console.log(entries);
+      fetch(`http://${location.host}/upload/download-data`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(har), // send har as text to be parsed as JSON on the server
+      })
+        .then((res) => {
+          return res.json();
+        })
+        .then((data) => {
+          console.log(data);
+          spinner.classList.add('d-none');
+          window.location.href = `http://${location.host}/upload?fileName=${data.fileName}`;
+        });
+    });
   });
 };
 

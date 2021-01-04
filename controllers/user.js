@@ -1,3 +1,6 @@
+// Node.JS core module imports
+const fs = require('fs');
+const path = require('path');
 // Third party module imports
 const { validationResult } = require('express-validator');
 const bcrypt = require('bcrypt');
@@ -156,10 +159,31 @@ exports.postEditProfileInfo = async (req, res, next) => {
 
 exports.getUpload = (req, res, next) => {
   const uploadSuccess = req.query.success ? parseInt(req.query.success) : 0;
+  const fileName = req.query.fileName ? req.query.fileName : '';
 
   if (uploadSuccess) {
     req.flash('uploadSuccess', 'Upload success.');
     res.redirect('/upload');
+  } else if (fileName) {
+    // Handle file download
+    const rootPath = path.dirname(require.main.filename); // Project root path
+    const filePath = path.join(rootPath + '/public/json/' + fileName);
+    console.log(fileName);
+    console.log(rootPath);
+    console.log(filePath);
+
+    res.download(filePath, 'har.json', function (err) {
+      if (err) {
+        // Handle error, but keep in mind the response may be partially-sent
+        // so check res.headersSent
+        console.log('ERROR WHILE DOWNLOADING FILE');
+      } else {
+        fs.unlink(filePath, (err) => {
+          if (err) throw err;
+          console.log(`File at path "${filePath}" was deleted`);
+        });
+      }
+    });
   } else {
     const flashMsg = req.flash();
     res.render('user/auth/upload', {
@@ -180,6 +204,25 @@ exports.postUploadData = async (req, res, next) => {
   } else {
     res.json({ uploadSuccess: false });
   }
+};
+
+// Handle POST request from Fetch API in upload.js(client)
+exports.postDownloadData = async (req, res, next) => {
+  // Function that accepts uploaded file from user and saves it
+  // in JSON format in static files folder at location /public/json.
+  // Immediatly after this file is created, it is served to the user
+  // and deleted.
+  console.log(req.query);
+  const userId = req.user.id;
+  const jsonData = JSON.stringify(req.body, null, 4);
+
+  fs.writeFile(`./public/json/temp-user${userId}.json`, jsonData, (err) => {
+    if (err) {
+      throw err;
+    }
+    console.log('JSON data is saved.');
+    res.json({ fileName: `temp-user${userId}.json` }); // returned to fetch for #download-btn in upload.js
+  });
 };
 
 exports.getIndex = (req, res, next) => {

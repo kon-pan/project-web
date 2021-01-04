@@ -20,9 +20,9 @@ app.set('views', 'views');
 app.use('/static', express.static('public'));
 
 // Parse application/x-www-form-urlencoded POST data
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ limit: '100mb', extended: true }));
 // Parse json POST data
-app.use(bodyParser.json({ limit: '20mb', extended: true }));
+app.use(bodyParser.json({ limit: '100mb', extended: true }));
 
 // Initialize session
 app.use(
