@@ -29,17 +29,32 @@ router.get('/logout', function (req, res) {
 router.get('/register', userController.getRegister);
 router.post('/register', registerValidator, userController.postRegister);
 
-// for test file creation - delete after
-router.get('/api/heatmap/getData/:userId', async (req, res) => {
-  const data = await User.getHeatmapData(req.params.userId);
 
-  const fs = require('fs').promises;
+router.get('/heatmap/getData/:userId', async (req, res) => {
+  
+  console.log(req.query);
 
-  try {
-    await fs.writeFile('file1.json', JSON.stringify(data)); // need to be in an async function
-  } catch (error) {
-    console.log(error);
+  if (req.query.filter === 'all') {
+    console.log('calling getHeatmapDataAll()');
+    const data = await User.getHeatmapDataAll(req.params.userId);
+    res.json(data);
+  } else if (req.query.filter === 'domains') {
+    console.log('calling getHeatmapDataDomains()');
+    const data = await User.getHeatmapDataDomains(req.params.userId);
+    res.json(data);
   }
+
+  // for test file creation - delete after <<<<<<<<<<<<<<<<<<<<<<<<<<<
+  // const fs = require('fs').promises;
+
+  // try {
+  //   await fs.writeFile('file1.json', JSON.stringify(data)); // need to be in an async function
+  // } catch (error) {
+  //   console.log(error);
+  // } 
+  // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+  
 });
 
 router.post(
@@ -52,6 +67,7 @@ router.get('/profile/:userId', isAuth, userController.getProfile);
 router.get('/upload', isAuth, userController.getUpload);
 router.post('/upload/upload-data', userController.postUploadData);
 router.post('/upload/download-data', userController.postDownloadData);
+router.get('/upload/download-data/:fileName', userController.getDownloadData);
 
 router.get('/', userController.getIndex);
 

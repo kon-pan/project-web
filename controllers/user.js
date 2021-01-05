@@ -159,31 +159,10 @@ exports.postEditProfileInfo = async (req, res, next) => {
 
 exports.getUpload = (req, res, next) => {
   const uploadSuccess = req.query.success ? parseInt(req.query.success) : 0;
-  const fileName = req.query.fileName ? req.query.fileName : '';
 
   if (uploadSuccess) {
     req.flash('uploadSuccess', 'Upload success.');
     res.redirect('/upload');
-  } else if (fileName) {
-    // Handle file download
-    const rootPath = path.dirname(require.main.filename); // Project root path
-    const filePath = path.join(rootPath + '/public/json/' + fileName);
-    console.log(fileName);
-    console.log(rootPath);
-    console.log(filePath);
-
-    res.download(filePath, 'har.json', function (err) {
-      if (err) {
-        // Handle error, but keep in mind the response may be partially-sent
-        // so check res.headersSent
-        console.log('ERROR WHILE DOWNLOADING FILE');
-      } else {
-        fs.unlink(filePath, (err) => {
-          if (err) throw err;
-          console.log(`File at path "${filePath}" was deleted`);
-        });
-      }
-    });
   } else {
     const flashMsg = req.flash();
     res.render('user/auth/upload', {
@@ -222,6 +201,28 @@ exports.postDownloadData = async (req, res, next) => {
     }
     console.log('JSON data is saved.');
     res.json({ fileName: `temp-user${userId}.json` }); // returned to fetch for #download-btn in upload.js
+  });
+};
+
+exports.getDownloadData = (req, res, next) => {
+  const fileName = req.params.fileName;
+  const rootPath = path.dirname(require.main.filename); // Project root path
+  const filePath = path.join(rootPath + '/public/json/' + fileName);
+  console.log(fileName);
+  console.log(rootPath);
+  console.log(filePath);
+  res.location('/profile');
+  res.download(filePath, 'har.json', function (err) {
+    if (err) {
+      // Handle error, but keep in mind the response may be partially-sent
+      // so check res.headersSent
+      console.log('ERROR WHILE DOWNLOADING FILE');
+    } else {
+      fs.unlink(filePath, (err) => {
+        if (err) throw err;
+        console.log(`File at path "${filePath}" was deleted`);
+      });
+    }
   });
 };
 

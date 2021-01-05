@@ -158,7 +158,6 @@ const processFile = (file) => {
         }
       }
 
-      console.log(entries);
       fetch(`http://${location.host}/upload/download-data`, {
         method: 'POST',
         headers: {
@@ -170,9 +169,8 @@ const processFile = (file) => {
           return res.json();
         })
         .then((data) => {
-          console.log(data);
           spinner.classList.add('d-none');
-          window.location.href = `http://${location.host}/upload?fileName=${data.fileName}`;
+          window.location.href = `http://${location.host}/upload/download-data/${data.fileName}`;
         });
     });
   });

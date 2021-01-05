@@ -110,12 +110,37 @@ class User {
     }
   }
 
-  static async getHeatmapData(id) {
+  static async getHeatmapDataAll(id) {
     const query = `
-      SELECT server_ip_address, server_lat, server_lon, COUNT(*)
+      SELECT server_ip_address, server_lat, server_lon, COUNT(*) AS freq
       FROM entries
       WHERE entries.user_id = $1
       GROUP BY server_ip_address, server_lat, server_lon
+    `;
+
+    const values = [id];
+
+    const client = await db.connect();
+
+    try {
+      const result = await client.query(query, values);
+      if (result.rowCount > 0) {
+        return result.rows;
+      } else {
+        return false;
+      }
+    } finally {
+      client.release();
+    }
+  }
+
+  static async getHeatmapDataDomains(id) {
+    const query = `
+    SELECT server_ip_address, requests.host, server_lat, server_lon, COUNT(*) as freq
+    FROM entries
+    INNER JOIN requests ON entries.id = requests.entry_id
+    WHERE entries.user_id = $1 AND requests.host IS NOT NULL
+    GROUP BY server_ip_address, requests.host, server_lat, server_lon;
     `;
 
     const values = [id];

@@ -16,12 +16,16 @@
   <body>
     <%- include('partials/navbar.ejs')  %> 
     <div class="container mt-3">
+      <!-- DELETE LATER -->
+      <h1>!!! MULTIPLE IP'S IN SAME LAT, LON !!!</h1>
+      <!-- REFACTOR THIS? -->
+      <input type="text" id="loggedInUserId" value="<%= user.id %> " hidden>
       <div class="row justify-content-center">
         <div class="col-12 p-3" id="map-wrapper">
           <div id="map"></div>
           <div class="row mt-4">
             <div class="col">
-              <form action="" class="form-inline">
+              <form class="form-inline" id="filter-heatmap-form">
                 <div class="form-check mb-2 mr-sm-2">
                   <span class="px-3"><b>Filter by content type:</b></span>
                   <div
@@ -29,12 +33,55 @@
                   >
                     <input
                       type="radio"
-                      id="customRadioInline1"
-                      name="customRadioInline1"
+                      id="filter-all"
+                      name="filterValue"
+                      value="all"
                       class="custom-control-input"
                     />
-                    <label class="custom-control-label" for="customRadioInline1"
-                      >Value 1</label
+                    <label class="custom-control-label" for="filter-all"
+                      >All</label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <input
+                      type="radio"
+                      id="filter-html"
+                      name="filterValue"
+                      value="html"
+                      class="custom-control-input"
+                    />
+                    <label class="custom-control-label" for="filter-html"
+                      >HTML</label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <input
+                      type="radio"
+                      id="filter-js"
+                      name="filterValue"
+                      value="js"
+                      class="custom-control-input"
+                    />
+                    <label class="custom-control-label" for="filter-js"
+                      >JS</label
+                    >
+                  </div>
+                  <div
+                    class="custom-control custom-radio custom-control-inline"
+                  >
+                    <input
+                      type="radio"
+                      id="filter-domains"
+                      name="filterValue"
+                      value="domains"
+                      class="custom-control-input"
+                    />
+                    <label class="custom-control-label" for="filter-domains"
+                      >Domains</label
                     >
                   </div>
                   <div
@@ -43,46 +90,7 @@
                     <input
                       type="radio"
                       id="customRadioInline2"
-                      name="customRadioInline1"
-                      class="custom-control-input"
-                    />
-                    <label class="custom-control-label" for="customRadioInline2"
-                      >Value 2</label
-                    >
-                  </div>
-                  <div
-                    class="custom-control custom-radio custom-control-inline"
-                  >
-                    <input
-                      type="radio"
-                      id="customRadioInline2"
-                      name="customRadioInline1"
-                      class="custom-control-input"
-                    />
-                    <label class="custom-control-label" for="customRadioInline2"
-                      >Value 3</label
-                    >
-                  </div>
-                  <div
-                    class="custom-control custom-radio custom-control-inline"
-                  >
-                    <input
-                      type="radio"
-                      id="customRadioInline2"
-                      name="customRadioInline1"
-                      class="custom-control-input"
-                    />
-                    <label class="custom-control-label" for="customRadioInline2"
-                      >Value 4</label
-                    >
-                  </div>
-                  <div
-                    class="custom-control custom-radio custom-control-inline"
-                  >
-                    <input
-                      type="radio"
-                      id="customRadioInline2"
-                      name="customRadioInline1"
+                      name="filterValue"
                       class="custom-control-input"
                     />
                     <label class="custom-control-label" for="customRadioInline2"
@@ -116,11 +124,38 @@
       crossorigin="anonymous"
     ></script>
     <script src="/static/js/user/leaflet-heatmap.js"></script>
+    <!-- <script src="/static/js/user/filter-heatmap.js"></script> -->
     <!-- My scripts -->
     <script>
-      const getHeatMapData = async () => {
-        // let data = await fetch(`http://${location.host}/heatmap/getData`);
-        let data = await fetch(`/static/heatmap-test.json`); // from test file in public folder
+      const loggedInUserId = document.querySelector('#loggedInUserId').value;
+      console.log(loggedInUserId);
+
+      let baseLayer = L.tileLayer(
+        'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+          attribution: '...',
+          maxZoom: 18
+        }
+      );
+
+      let cfg = {
+        radius: 30,
+        maxOpacity: 0.4,
+        minOpacity: 0,
+        blur: 0.75,
+      };
+
+      let heatmapLayer = new HeatmapOverlay(cfg);
+
+
+      let map = new L.Map('map', {
+        center: new L.LatLng(25.6586, -80.3568),
+        zoom: 4,
+        layers: [baseLayer, heatmapLayer]
+      });
+
+      // Initial render
+      const createHeatMap = async() => {
+        let data = await fetch(`http://${location.host}/heatmap/getData/${loggedInUserId}?filter=all`);
         console.log(data);
         data = await data.json();
         console.log(data);
@@ -130,65 +165,52 @@
             heatMapData.push({
               lat: elem.server_lat,
               lng: elem.server_lon,
-              count: elem.count,
+              freq: elem.freq,
             });
           }
         }
-        console.log(heatMapData);
-        createHeatMap(heatMapData);
-      };
-
-      const createHeatMap = (heatMapData) => {
-        var baseLayer = L.tileLayer(
-          'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-          {
-            attribution: 'HARτες',
-            maxZoom: 18,
-          }
-        );
-
-        // var cfg = {
-        //   // radius should be small ONLY if scaleRadius is true (or small radius is intended)
-        //   // if scaleRadius is false it will be the constant radius used in pixels
-        //   radius: 2,
-        //   maxOpacity: 0.8,
-        //   // scales the radius based on map zoom
-        //   scaleRadius: true,
-        //   // if set to false the heatmap uses the global maximum for colorization
-        //   // if activated: uses the data maximum within the current map boundaries
-        //   //   (there will always be a red spot with useLocalExtremas true)
-        //   useLocalExtrema: true,
-        //   // which field name in your data represents the latitude - default "lat"
-        //   latField: 'lat',
-        //   // which field name in your data represents the longitude - default "lng"
-        //   lngField: 'lng',
-        //   // which field name in your data represents the data value - default "value"
-        //   valueField: 'count',
-        // };
-        var cfg = {
-          radius: 30,
-          maxOpacity: 0.4,
-          minOpacity: 0,
-          blur: 0.75,
-        };
 
         var testData = {
           max: 10,
           data: heatMapData,
         };
 
-        var heatmapLayer = new HeatmapOverlay(cfg);
+        heatmapLayer.setData(testData);
+      }
 
-        var map = new L.Map('map', {
-          center: new L.LatLng(0, 0),
-          zoom: 1,
-          layers: [baseLayer, heatmapLayer],
-        });
+      // Initial render
+      const filterHeatMap = async(filter) => {
+        let data = await fetch(`http://${location.host}/heatmap/getData/${loggedInUserId}?filter=${filter}`);
+        console.log(data);
+        data = await data.json();
+        console.log(data);
+        let heatMapData = [];
+        for (let elem of data) {
+          if (!(elem.server_lat === null || elem.server_lon === null)) {
+            heatMapData.push({
+              lat: elem.server_lat,
+              lng: elem.server_lon,
+              freq: elem.freq,
+            });
+          }
+        }
+
+        var testData = {
+          max: 10,
+          data: heatMapData,
+        };
 
         heatmapLayer.setData(testData);
-      };
+      }
 
-      getHeatMapData();
+      const filterHeatmapForm = document.querySelector('#filter-heatmap-form');
+      filterHeatmapForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const filter = filterHeatmapForm.elements['filterValue'].value;
+        filterHeatMap(filter);
+      });
+      
+      createHeatMap();
     </script>
   </body>
 </html>
